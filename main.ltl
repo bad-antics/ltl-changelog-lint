@@ -1,0 +1,15 @@
+// ltl-changelog-lint/main.ltl
+//
+// Keep-a-Changelog format linter and generator.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-changelog-lint v0.1.0")
+    io::println("Keep-a-Changelog format linter and generator.")
+    0
+}
